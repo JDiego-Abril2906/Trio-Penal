@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLLA 2024</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+        body {
+            background-image: url(./IMAGENES/fONDO.jpg);
+            margin: px 100px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+     
+
+        #encabezado {
+            width: 1000px;
+            background-color: rgb(155, 206, 163);
+            margin: auto;
+            border: 1px solid black;
+         
+        }
+
+        #encabezado img {
+            width: 200px;
+            height: 160px;
+        }
+
+        #menu {
+            width: 1000px;
+            height: 100px;
+            background-color: rgb(155, 206, 163);
+            margin: auto;
+            border-radius: 10px;
+            border: 1px solid #000000;
+        }
+
+        #buttom {
+            padding: 0;
+        }
+
+        #buttom li {
+            display: inline;
+        }
+
+        #buttom li a {
+            color: black;
+            padding: 10px;
+            font-size: 30px;
+            font-family: impact;
+            text-decoration: none;
+        }
+
+        #buttom a:hover {
+            text-decoration: underline;
+            color: aqua;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+
+        #cuerpo {
+            width: 1000px;
+            height: 1000px;
+            background-color: rgb(155, 206, 163);
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #000000;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .carousel {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            margin: -10px;
+        }
+
+        .carousel img {
+            border: 2px solid #000000;
+            flex: 0 0 auto;
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            object-fit: cover;
+            scroll-snap-align: start;
+            border-radius: 10px;
+            cursor:default;
+        }
+
+        #pie {
+            width: 1000px;
+            background-color: rgb(155, 206, 163);
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            border: 1px solid #000000;
+        }
+
+        #datos li {
+            display: inline;
+            font-size: medium;
+        }
+
+        img {
+            width: 300px;
+            height: 500px;
+        }
+
+        #informacion {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        #informacion li {
+            text-align: left;
+            margin-right: 20px;
+            font-size: 16px;
+        }
+
+        .entra {
+            display: inline-block;
+            padding: 10px 20px;
+            
+            color: #000000;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+      
+
+        .noticias li {
+            list-style-type: none;
+        }
+
+        .noticias li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(1, 99, 247);
+            transition: background-color 0.3s ease;
+
+        }
+
+        .noticias a:hover {
+            text-decoration: underline;
+            color: rgb(29, 116, 247);
+            transition: background-color 0.3s ease;
+        }
+
+
+        #pie a {
+
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="contenedor">
+        <br><br>
+        <div id="encabezado">
+            <table>
+                <td><img src="./IMAGENES/Logo.jpg" alt="">
+                <td><br>
+                    <center>
+                        <h2>"¡Participa en la gran Polla Futbolera 2024!"<br>
+                            Demuestra tus conocimientos, compite con amigos y/o familiares. ¡Inscribete ahora y que gane el mejor!
+                        </h2>
+                    </center>
+            </table>
+        </div>
+
+
+        <br>
+        <center>
+            <div id="menu"><br>
+                <ul id="buttom">
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="./PAGINAS/COPA_AMERICA.html">COPA AMERICA</a></li>
+
+
+
+                </ul>
+
+
+
+
+            </div>
+        </center>
+        <br><br>
+        <div id="cuerpo">
+            <h1>REGLAS</h1>
+            <h3>INSCRIPCIÓN</h3>
+            <P>Fecha limite: 17 de Junio del 2024</P>
+            <p>Cuota: $12.000 cop</p>
+            <h3>PREDICCIONES</h3>
+            <p>Es obligatorio que hagas tus predicciones antes de cada partido (tiempo limite de entrega 1hr antes del partido, de no ser entregado su resultado la puntuación sera 0)</p>
+            <h3>PUNTUACIÓN</h3>
+            <H4>Marcador acertado: 7 pts.</H4> 
+                <p>(Si en el partido Colombia vs Costa Rica el usuario predice un resultado de 2-0 ganando el equipo Colombiano y el marcador real es de 2-0 ganado el equipo Colombiano su puntuación sera 7pts);(Si en el partido Colombia vs Costa Rica el usuario predice un resultado de 2-2 y el marcador real es de 2-2 su puntuación sera 7pts)</p>
+            <H4>Marcador aproximado: 4 pts.</H4>
+            <p>(Si en el partido Colombia vs Costa Rica el usuario predice un resultado de 2-0 ganando el equipo Colombiano y el marcador real es de 1-0 ganado el equipo Colombiano su puntuación sera 4pts);(Si en el partido Colombia vs Costa Rica el usuario predice un resultado de 2-2 ganando el equipo Colombiano y el marcador real es de 1-1 ganado el equipo Colombiano su puntuación sera 4pts)</p>
+            <h3>PREMIOS</h3>
+            <h4>1° LUGAR</h4>
+            <p>Premio de Campeón</p>
+            <h4>2° LUGAR</h4>
+            <p>Premio de Subcampeón</p>
+            <h4>3° LUGAR</h4>
+            <P>Premio de Tercer puesto</P>
+
+
+            </ul><br><br><br><br>
+           
+            </center>
+
+        </div>
+
+
+
+
+
+        <br><br>
+
+        <div id="pie">
+            <ul id="informacion">
+                <li><strong>Nequi:</strong>316 495 5005  -  311 646 9472</li>
+                <li><strong>Correo:</strong><a href="mailto:envia@gmail.com"> jabrilaponte@gmail.com</a></li>
+                <li><strong>WhatsApp:</strong>322 484 0291  -  3058154431 </li>
+            </ul>
+            <div class="entra">
+                <h2>¡PARTICIPA YA Y QUE GANE EL MEJOR!</h2>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+
+</body>
+
+</html>
